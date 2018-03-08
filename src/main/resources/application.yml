@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@192.168.3.8:1521:amen
+    username: userame
+    password: password
+mybatis-plus:
+  mapper-locations: classpath*:com/example/demo/**/mapping/*.xml
+  typeAliasesPackage: com.example.demo.gitblit.obj.model
